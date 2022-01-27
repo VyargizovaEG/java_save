@@ -22,12 +22,18 @@ public class SimbirSoftTest1  {
 
     @Test
     public void testUntitledTestCase() throws Exception {
-        driver.get("https://www.google.com/");
-        driver.findElement(By.name("q")).click();
-        driver.findElement(By.name("q")).clear();
-        driver.findElement(By.name("q")).sendKeys("\u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440");
-        Thread.sleep(2000);
-        driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+        gotoPage();
+        fillForm();
+        Result();
+    }
+
+    private void Result() throws InterruptedException {
+        driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div")).click();
+        Thread.sleep(3000);
+        driver.close();
+    }
+
+    private void fillForm() {
         driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr/td/div/div")).click();
         driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td/div/div")).click();
         driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[4]/div/div")).click();
@@ -40,9 +46,15 @@ public class SimbirSoftTest1  {
         driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td/div/div")).click();
         driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[2]/td[4]/div/div")).click();
         driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[3]/td[2]/div/div")).click();
-        driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div")).click();
-        Thread.sleep(3000);
-        driver.close();
+    }
+
+    private void gotoPage() throws InterruptedException {
+        driver.get("https://www.google.com/");
+        driver.findElement(By.name("q")).click();
+        driver.findElement(By.name("q")).clear();
+        driver.findElement(By.name("q")).sendKeys("\u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440");
+        Thread.sleep(2000);
+        driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
     }
 
     @AfterClass
