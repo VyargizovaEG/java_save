@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50679bae-b4ee-4306-b64b-737039dc382d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/addressbook-web-test/src/main/java/ru/stqa/pft/addressbook/Equation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/EquationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-test/src/main/java/ru/stqa/pft/addressbook/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/tests/BrowserEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
@@ -17,13 +17,19 @@
       <change beforePath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-test/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-test/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/GroupCreationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/UntitledTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/main/ru/stqa/pft/addressbook/Equation.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/main/ru/stqa/pft/addressbook/Equation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/EquationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/EquationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/tests/UntitledTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/build/classes/java/test/ru/stqa/pft/addressbook/tests/UntitledTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-test/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/UntitledTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/tests/UntitledTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/src/main/java/ru/stqa/pft/addressbook/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/src/main/java/ru/stqa/pft/addressbook/Equation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/EquationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/EquationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/tests/UntitledTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-test/src/test/java/ru/stqa/pft/addressbook/tests/UntitledTestCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,10 +131,10 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -139,7 +145,7 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EquationTests">
+  <component name="RunManager" selected="TestNG.BrowserEx">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -173,17 +179,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EquationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrowserEx" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.EquationTests" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.BrowserEx" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupsHelper" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.appmanager" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.appmanager.GroupsHelper" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupsHelper.testUntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.appmanager" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.appmanager.GroupsHelper" />
+      <option name="METHOD_NAME" value="testUntitledTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -198,54 +247,12 @@
       <module name="addressbook-web-test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.SimbirSoftTest1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimbirSoftTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.SimbirSoftTest2" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimbirSoftTest3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.SimbirSoftTest3" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -301,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EquationTests" />
-        <item itemvalue="TestNG.UntitledTestCase" />
-        <item itemvalue="TestNG.SimbirSoftTest3" />
-        <item itemvalue="TestNG.SimbirSoftTest2" />
+        <item itemvalue="TestNG.BrowserEx" />
         <item itemvalue="TestNG.SimbirSoftTest1" />
+        <item itemvalue="TestNG.GroupsHelper.testUntitledTestCase" />
+        <item itemvalue="TestNG.GroupsHelper" />
+        <item itemvalue="TestNG.UntitledTestCase" />
       </list>
     </recent_temporary>
   </component>

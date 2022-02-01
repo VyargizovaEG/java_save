@@ -1,24 +1,28 @@
 package ru.stqa.pft.addressbook.appmanager;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.concurrent.TimeUnit;
+import static org.openqa.selenium.remote.BrowserType.*;
 
 public class ApplicationManager {
+    GroupsHelper groupsHelper;
 
-  private GroupsHelper groupsHelper = new GroupsHelper();
 
-  public void init() {
-      WebDriverManager.chromedriver().setup();
-      groupsHelper.driver = new ChromeDriver();
-      groupsHelper.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-      JavascriptExecutor js = (JavascriptExecutor) groupsHelper.driver;
+
+    public ApplicationManager(GroupsHelper groupsHelper) {
+
+        this.groupsHelper = groupsHelper;
+    }
+
+    public void setUP() {
+        String browser = FIREFOX;
+        if (browser == FIREFOX) {
+            groupsHelper = new GroupsHelper();
+        } else if (browser == CHROME) {
+            groupsHelper = new GroupsHelper();
+        } else if (browser == OPERA) {
+            groupsHelper = new GroupsHelper();
+        }
     }
 
 
-  public void stop() {
-      groupsHelper.driver.quit();
-    }
+
 }

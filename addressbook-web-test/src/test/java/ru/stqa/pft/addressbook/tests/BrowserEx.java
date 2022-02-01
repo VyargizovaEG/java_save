@@ -3,26 +3,40 @@ package ru.stqa.pft.addressbook.tests;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
-
-public class UntitledTestCase {
+public class BrowserEx {
     private WebDriver driver;
 
     @BeforeClass
-    public void setUp() throws Exception {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+
+    public void setDriver() {
+        String br = BrowserType.CHROME;
+        if (br == BrowserType.CHROME) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else if (br == BrowserType.FIREFOX) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else if (br == BrowserType.OPERA); {
+            WebDriverManager.operadriver().setup();
+            driver = new OperaDriver();
+        }
+
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         JavascriptExecutor js = (JavascriptExecutor) driver;
     }
 
+
     @Test
-    public void testUntitledTestCase() throws Exception {
+    public void testUntitledTestCase() {
         driver.get("http://localhost/addressbook/");
         driver.findElement(By.name("user")).click();
         driver.findElement(By.name("user")).clear();
@@ -51,7 +65,6 @@ public class UntitledTestCase {
         driver.quit();
 
     }
-
-
-
 }
+
+
